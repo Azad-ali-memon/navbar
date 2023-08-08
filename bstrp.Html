@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .Container-fluid{
+            padding-top: 20px;
+            margin-left: 8px;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+            
+        }
+        .Container-fluid ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .Container-fluid ul :hover{
+            border-bottom: 2px solid black;
+        }
+        .Container-fluid i{
+           padding-left: 20px;
+        
+        }
+        .images img{
+            padding-top: 15px;
+            justify-content: space-between;
+            margin-left: 8px;
+            height: 550px;
+            width: 600px;
+            animation-name: Pic;
+        
+        }
+        img:hover{
+            border-radius:100%;
+            height: 250px;
+            width: 300px;
+            animation: backwards;
+            
+           
+            
+
+        }
+        
+        @keyframes pic{
+            25%{
+                animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            animation-duration: 2s;
+            animation-delay: 2ms;
+            animation-direction: alternate-reverse;
+                
+            }
+            50%{
+                animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            animation-duration: 2s;
+            animation-delay: 2ms;
+            animation-direction: alternate-reverse;
+            }
+            75%{
+                animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            animation-duration: 2s;
+            animation-delay: 2ms;
+            animation-direction: alternate-reverse;
+            }
+            100%{
+                animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            animation-duration: 2s;
+            animation-delay: 2ms;
+            animation-direction: alternate-reverse;
+            }
+        }
+       
+
+    </style>
+</head>
+
+<body>
+    <div class="Container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <h1>Impact</h1>
+            </div>
+            <div class="col-6">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Team</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="images">
+            <div class="row">
+                <div class="col-6">
+                    <img src="1.png" alt="">
+                    <img src="2.png" alt="">
+                    <img src="3.png" alt="">
+                    <img src="10.png" alt="">
+                    <img src="11.png" alt="">
+                    <img src="12.png" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="4.png" alt="">
+                    <img src="5.png" alt="">
+                    <img src="6.png" alt="">
+                    <img src="7.png" alt="">
+                    <img src="8.png" alt="">
+                    <img src="9.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
